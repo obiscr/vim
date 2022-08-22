@@ -8,33 +8,28 @@
 
 ## 懒人版
 
-:::success-block
-敬请期待...
-:::
+百度云链接: https://pan.baidu.com/s/1kEeCKsSNScaw4-ZFT_VWUQ 密码: 0git
+
+下载完成以后，先安装三个exe文件，建议使用默认路径安装，然后还需要配置环境变量，go 和 python 的安装后的配置可以参考本文档下面的一部分。
+然后备份自己用户目录（~/）的 _vimrc 文件，vimfiles 目录，然后把下载的这两个文件放到 ~/ 目录。
 
 ## 折腾版
 
 ### 下载 VIM
 可以在 [此处](https://tuxproject.de/projects/vim/) 下载 **x64** 版本的Vim。
-:::success-block
-我用的 Vim 版本是: 9.0.0215
-:::
+> 我用的 Vim 版本是: 9.0.0215
 
 ### 下载 Python
 
 在 [此处](https://www.python.org/ftp/python/3.10.6/python-3.10.6-amd64.exe) 下载 Python。安装完成后，确保环境变量添加到了Path，运行是否正常等。
-:::success-block
-我用的 Python 版本是: 3.10.6
-:::
+> 我用的 Python 版本是: 3.10.6
 
 除此之外，还需要配置 **PYTHONHOME** 环境变量。变量名是：PYTHONHOME，变量值是Python的安装路径。
 
 ![4](https://services.obiscr.com/file/图片/4-20220821081926177.png)
 
 ### 特别注意
-:::warn-block
-有一点需要注意：**Vim 版本 和 Python 版本的位数要匹配，要么都是 x64 （64位）的，要么都是 x86 （32位）的**。下载的时候注意版本问题。
-:::
+> **有一点需要注意：**Vim 版本 和 Python 版本的位数要匹配，要么都是 x64 （64位）的，要么都是 x86 （32位）的**。下载的时候注意版本问题。**
 
 ### 下载 _vimrc 文件
 
@@ -205,15 +200,13 @@ go install golang.org/x/tools/gopls@latest
 
 插件安装完成以后，可以根据 [文档](http://ycm-core.github.io/YouCompleteMe/#windows) 来配置YouCompleteMe。
 
-:::success-block
-这边配置的时候，一定要认真。一步一步往下走，坑特别多。特别是需要安装的环境：
+> 这边配置的时候，一定要认真。一步一步往下走，坑特别多。特别是需要安装的环境：
 1. Visual Studio Build Tools 2017（我用的2019）
 2. cmake
 3. python
 4. go
 5. node 
 6. npm
-:::
 
 下面大概说一下我的安装流程。
 
